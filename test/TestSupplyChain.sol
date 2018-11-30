@@ -5,7 +5,7 @@ import "truffle/DeployedAddresses.sol";
 import "../contracts/SupplyChain.sol";
 
 contract TestSupplyChain  {
-    uint public initialBalance = 1 ether;
+  /*  uint public initialBalance = 1 ether;
 
     SupplyChain public chain;
     Proxy public sellActor;
@@ -210,7 +210,7 @@ contract TestSupplyChain  {
 
         // Verify state is Sold
         Assert.equal(getItemState(itemSku), 1, "Item should be `Sold`");
-    }
+    } */
 }
 
 
